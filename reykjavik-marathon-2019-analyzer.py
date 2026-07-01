@@ -197,6 +197,14 @@ def _(px, split_order, sub_four_df):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
+    Both groups slow down, the variance (the vertical spread/outliers) in the Sub-4 group after 29.4k is much wider, indicating catastrophic pacing breakdowns compared to the more controlled, tighter deceleration seen in Sub-3 runners.
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
     From here, I'm going to refer to the 29.4k point as the pace separator because it's my point of interest in this study.
     """)
     return
